@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://sneakernews.com/wp-content/uploads/2017/04/titolo-basel-shop-retail-display-07.jpg');
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px; 
+    border: 2px solid #263534; 
+    backdrop-filter: blur(15px);
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon-container {
+    text-align: center; 
+    margin-bottom: 15px;
+}
+
+.icon-container i {
+    font-size: 40px; 
+    color: #000000; 
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #64dad0; 
+    outline: none; 
+}
+
+button {
+    padding: 10px;
+    border: 2px solid #5cb2b8; 
+    background-color: #64dad0;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #10a1c5;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.signup-text a {
+    color: #2014c5; 
+    text-decoration: none;
+}
+
+.signup-text a:hover {
+    text-decoration: underline; 
+    color: #10a1c5; 
+}
+
+.logo-container img {
+    width: 200px; 
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+
